@@ -1,0 +1,12 @@
+package com.example.testrabbitmq
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.example.trm.R
+
+class ReceiveActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_receive)
+    }
+}
